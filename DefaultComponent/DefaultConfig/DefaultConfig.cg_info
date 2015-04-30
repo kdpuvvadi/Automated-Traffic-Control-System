@@ -1,0 +1,171 @@
+I-Logix-RPY-Archive version 8.5.2 * 1471822
+
+- m_fileModifyTime = { IRPYRawContainer 
+	- size = 28;
+	- value = "DefaultComponent/DefaultConfig/Controller.cpp" 9.12.2012::20:9:28
+	"DefaultComponent/DefaultConfig/Controller.h" 9.10.2012::6:47:2
+	"DefaultComponent/DefaultConfig/Default.cpp" 9.12.2012::5:1:8
+	"DefaultComponent/DefaultConfig/Default.h" 9.12.2012::5:1:8
+	"DefaultComponent/DefaultConfig/Density_sensor.cpp" 9.4.2012::14:53:16
+	"DefaultComponent/DefaultConfig/Density_sensor.h" 9.7.2012::5:19:16
+	"DefaultComponent/DefaultConfig/EW_SENSOR.cpp" 9.4.2012::14:36:30
+	"DefaultComponent/DefaultConfig/EW_SENSOR.h" 9.7.2012::5:19:16
+	"DefaultComponent/DefaultConfig/Emergency.cpp" 9.4.2012::14:36:30
+	"DefaultComponent/DefaultConfig/Emergency.h" 9.7.2012::5:19:16
+	"DefaultComponent/DefaultConfig/Hold.cpp" 9.4.2012::14:36:30
+	"DefaultComponent/DefaultConfig/Hold.h" 9.7.2012::5:19:16
+	"DefaultComponent/DefaultConfig/NS_SENSOR.cpp" 9.4.2012::14:36:30
+	"DefaultComponent/DefaultConfig/NS_SENSOR.h" 9.7.2012::5:19:18
+	"DefaultComponent/DefaultConfig/Normal.cpp" 9.14.2012::15:23:11
+	"DefaultComponent/DefaultConfig/Normal.h" 9.14.2012::15:23:11
+	"DefaultComponent/DefaultConfig/Power_switch.cpp" 9.4.2012::14:36:30
+	"DefaultComponent/DefaultConfig/Power_switch.h" 9.7.2012::5:19:18
+	"DefaultComponent/DefaultConfig/Public.cpp" 9.12.2012::14:8:10
+	"DefaultComponent/DefaultConfig/Public.h" 9.12.2012::14:8:10
+	"DefaultComponent/DefaultConfig/TPI.cpp" 9.11.2012::20:39:18
+	"DefaultComponent/DefaultConfig/TPI.h" 9.11.2012::20:39:18
+	"DefaultComponent/DefaultConfig/Traffic_Main.cpp" 9.4.2012::14:36:30
+	"DefaultComponent/DefaultConfig/Traffic_Main.h" 9.4.2012::14:36:30
+	"DefaultComponent/DefaultConfig/Traffic_density.cpp" 9.4.2012::14:36:30
+	"DefaultComponent/DefaultConfig/Traffic_density.h" 9.4.2012::14:36:30
+	"DefaultComponent/DefaultConfig/controller_density.cpp" 9.14.2012::14:25:51
+	"DefaultComponent/DefaultConfig/controller_density.h" 9.14.2012::14:25:50
+	
+}
+- size = 15;
+- hElement = { IHandle 
+	- _m2Class = "IClass";
+	- _filename = "Default.sbs";
+	- _subsystem = "Default";
+	- _class = "";
+	- _name = "EW_SENSOR";
+	- _id = GUID 1c432f96-da4a-44c1-9d9c-fa573a46dbad;
+}
+- genTime = 9.14.2012::3:57:36;
+- hElement = { IHandle 
+	- _m2Class = "IClass";
+	- _filename = "Default.sbs";
+	- _subsystem = "Default";
+	- _class = "";
+	- _name = "Density_sensor";
+	- _id = GUID a8332519-edc3-42fe-9295-0fe147a37123;
+}
+- genTime = 9.14.2012::3:57:36;
+- hElement = { IHandle 
+	- _m2Class = "ICodeGenConfigInfo";
+	- _filename = "DefaultComponent.cmp";
+	- _subsystem = "";
+	- _class = "";
+	- _name = "DefaultComponent\\DefaultConfig";
+	- _id = GUID 7d2e48cb-2d40-4dee-ab75-95fc40904115;
+}
+- genTime = 9.14.2012::15:23:11;
+- hElement = { IHandle 
+	- _m2Class = "IClass";
+	- _filename = "Default.sbs";
+	- _subsystem = "Default";
+	- _class = "";
+	- _name = "Traffic_density";
+	- _id = GUID 80bb38c7-755b-4598-b9c7-1f40003201e7;
+}
+- genTime = 9.14.2012::3:57:36;
+- hElement = { IHandle 
+	- _m2Class = "IClass";
+	- _filename = "Default.sbs";
+	- _subsystem = "Default";
+	- _class = "";
+	- _name = "Emergency";
+	- _id = GUID d0bed298-5360-4db5-9b58-39f8397c7fe9;
+}
+- genTime = 9.14.2012::3:57:36;
+- hElement = { IHandle 
+	- _m2Class = "IActor";
+	- _filename = "Default.sbs";
+	- _subsystem = "Default";
+	- _class = "";
+	- _name = "Public";
+	- _id = GUID 6509ae88-e7b2-4ef8-ba89-79d12d8f6f3b;
+}
+- genTime = 9.14.2012::3:57:36;
+- hElement = { IHandle 
+	- _m2Class = "IClass";
+	- _filename = "Default.sbs";
+	- _subsystem = "Default";
+	- _class = "";
+	- _name = "NS_SENSOR";
+	- _id = GUID f4361ffa-05c5-4267-bbfa-662f90a64db3;
+}
+- genTime = 9.14.2012::3:57:36;
+- hElement = { IHandle 
+	- _m2Class = "IClass";
+	- _filename = "Default.sbs";
+	- _subsystem = "Default";
+	- _class = "";
+	- _name = "Controller";
+	- _id = GUID 83b8e6a2-94b2-4093-bbe7-7206ac62bfdc;
+}
+- genTime = 9.14.2012::3:57:36;
+- hElement = { IHandle 
+	- _m2Class = "IClass";
+	- _filename = "Default.sbs";
+	- _subsystem = "Default";
+	- _class = "";
+	- _name = "Normal";
+	- _id = GUID f2e3f6b2-7d2a-4412-a237-a8af3f6e3cf4;
+}
+- genTime = 9.14.2012::15:23:11;
+- hElement = { IHandle 
+	- _m2Class = "IClass";
+	- _filename = "Default.sbs";
+	- _subsystem = "Default";
+	- _class = "";
+	- _name = "controller_density";
+	- _id = GUID 1a51e71b-31cc-48ce-a53a-4f8595401f65;
+}
+- genTime = 9.14.2012::14:36:1;
+- hElement = { IHandle 
+	- _m2Class = "IClass";
+	- _filename = "Default.sbs";
+	- _subsystem = "Default";
+	- _class = "";
+	- _name = "Power_switch";
+	- _id = GUID 685aff4b-2d88-4a96-b5be-1167347dd7e3;
+}
+- genTime = 9.14.2012::3:57:36;
+- hElement = { IHandle 
+	- _m2Class = "IActor";
+	- _filename = "Default.sbs";
+	- _subsystem = "Default";
+	- _class = "";
+	- _name = "TPI";
+	- _id = GUID 72192b1c-2b2d-41a6-a8da-48c57d34a342;
+}
+- genTime = 9.14.2012::3:57:36;
+- hElement = { IHandle 
+	- _m2Class = "ISubsystem";
+	- _filename = "Default.sbs";
+	- _subsystem = "";
+	- _class = "";
+	- _name = "Default";
+	- _id = GUID be640df6-51e6-49ad-a64c-5508574b6af0;
+}
+- genTime = 9.14.2012::15:23:11;
+- hElement = { IHandle 
+	- _m2Class = "IClass";
+	- _filename = "Default.sbs";
+	- _subsystem = "Default";
+	- _class = "";
+	- _name = "Hold";
+	- _id = GUID 5bab9808-c966-4dcf-962f-1c39af059d3e;
+}
+- genTime = 9.14.2012::3:57:36;
+- hElement = { IHandle 
+	- _m2Class = "IClass";
+	- _filename = "Default.sbs";
+	- _subsystem = "Default";
+	- _class = "";
+	- _name = "Traffic_Main";
+	- _id = GUID a4115a63-96d5-4d93-b74b-afb28d25b7d6;
+}
+- genTime = 9.14.2012::3:57:36;
+

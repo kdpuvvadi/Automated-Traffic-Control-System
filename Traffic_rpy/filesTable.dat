@@ -1,0 +1,11 @@
+I-Logix-RPY-Archive version 8.5.2 * 1471822
+
+- filesTable = { IRPYRawContainer 
+	- size = 4;
+	- value = "Projects.rpl" ""
+	"Traffic.rpy" ""
+	"Traffic_rpy\\Default.sbs" "Default"
+	"Traffic_rpy\\DefaultComponent.cmp" "DefaultComponent"
+	
+}
+

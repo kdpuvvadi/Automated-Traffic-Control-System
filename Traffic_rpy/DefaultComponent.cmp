@@ -1,0 +1,401 @@
+I-Logix-RPY-Archive version 8.5.2 C++ 1471822
+{ IComponent 
+	- _id = GUID 2a1802f9-33e5-4824-a149-a438df2c96d5;
+	- _myState = 139264;
+	- _name = "DefaultComponent";
+	- m_buildType = Executable;
+	- m_libraries = "";
+	- m_additionalSources = "";
+	- m_standardHeaders = "";
+	- m_includePath = "";
+	- m_initializationCode = "";
+	- m_folder = { IFolder 
+		- _id = GUID a9cefd76-0fc9-4f3d-b718-7fd15d6a764d;
+		- _myState = 73728;
+		- _name = "Files";
+		- m_path = "";
+		- Elements = { IRPYRawContainer 
+			- size = 0;
+		}
+		- Files = { IRPYRawContainer 
+			- size = 0;
+		}
+	}
+	- m_configActive = { ICodeGenConfigInfoHandle 
+		- _m2Class = "ICodeGenConfigInfo";
+		- _id = GUID 51b1574d-1ae2-43bf-abc2-c04815fd2b3f;
+	}
+	- Configs = { IRPYRawContainer 
+		- size = 3;
+		- value = 
+		{ ICodeGenConfigInfo 
+			- _id = GUID 7d2e48cb-2d40-4dee-ab75-95fc40904115;
+			- _myState = 8192;
+			- _properties = { IPropertyContainer 
+				- Subjects = { IRPYRawContainer 
+					- size = 1;
+					- value = 
+					{ IPropertySubject 
+						- _Name = "CPP_CG";
+						- Metaclasses = { IRPYRawContainer 
+							- size = 1;
+							- value = 
+							{ IPropertyMetaclass 
+								- _Name = "Configuration";
+								- Properties = { IRPYRawContainer 
+									- size = 1;
+									- value = 
+									{ IProperty 
+										- _Name = "Environment";
+										- _Value = "MinGW";
+										- _Type = Enum;
+										- _ExtraTypeInfo = "MinGW, Microsoft,MicrosoftDLL,MSVC9,VxWorks,VxWorks62diab,VxWorks62gnu,VxWorks62diab_RTP,VxWorks62gnu_RTP,Solaris2,Cygwin,Borland,MultiWin32,Multi4Win32,MSStandardLibrary,MicrosoftWinCE.NET,OseSfk,Linux,Solaris2GNU,QNXNeutrinoGCC, QNXNeutrinoCW,INTEGRITY,INTEGRITY5,IntegrityESTL,Integrity5ESTL,NucleusPLUS-PPC,WorkbenchManaged,WorkbenchManaged_RTP";
+									}
+								}
+							}
+						}
+					}
+				}
+			}
+			- _name = "DefaultConfig";
+			- HyperLinks = { IRPYRawContainer 
+				- size = 2;
+				- value = 
+				{ IMHyperLink 
+					- _id = GUID bbf1b939-3fcc-4dda-a9ae-5f752fdb8a6d;
+					- _dependsOn = { INObjectHandle 
+						- _m2Class = "";
+					}
+					- _linkDispName = "Edit Makefile";
+					- _linkType = "FREE";
+					- _linkTarget = "C:\\Work_Shubhajit\\Traffic\\DefaultComponent\\DefaultConfig\\DefaultComponent.mak";
+					- isConfigurationFileHyperLink = 1;
+				}
+				{ IMHyperLink 
+					- _id = GUID 09bef155-d173-479e-8c1a-da11ce9649c6;
+					- _dependsOn = { INObjectHandle 
+						- _m2Class = "";
+					}
+					- _linkDispName = "Edit Main File";
+					- _linkType = "FREE";
+					- _linkTarget = "C:\\Work_Shubhajit\\Traffic\\DefaultComponent\\DefaultConfig\\MainDefaultComponent";
+					- isConfigurationFileHyperLink = 1;
+				}
+			}
+			- _scopeType = Explicit;
+			- _libraries = "";
+			- _additionalSources = "";
+			- _standardHeaders = "";
+			- _includePath = "";
+			- _targetMain = "";
+			- _instrumentation = Animation;
+			- _timeModel = RealTime;
+			- m_generateActors = 1;
+			- _statechartImplementation = Flat;
+			- _initializationCode = "";
+			- _checksList = 0 ;
+			- ScopeElements = { IRPYRawContainer 
+				- size = 0;
+			}
+			- InitialInstances = { IRPYRawContainer 
+				- size = 3;
+				- value = 
+				{ IHandle 
+					- _m2Class = "IClass";
+					- _filename = "Default.sbs";
+					- _subsystem = "Default";
+					- _class = "";
+					- _name = "Normal";
+					- _id = GUID f2e3f6b2-7d2a-4412-a237-a8af3f6e3cf4;
+				}
+				{ IHandle 
+					- _m2Class = "IClass";
+					- _filename = "Default.sbs";
+					- _subsystem = "Default";
+					- _class = "";
+					- _name = "Traffic_density";
+					- _id = GUID 80bb38c7-755b-4598-b9c7-1f40003201e7;
+				}
+				{ IHandle 
+					- _m2Class = "IClass";
+					- _filename = "Default.sbs";
+					- _subsystem = "Default";
+					- _class = "";
+					- _name = "Traffic_Main";
+					- _id = GUID a4115a63-96d5-4d93-b74b-afb28d25b7d6;
+				}
+			}
+			- _root = { IFolder 
+				- _id = GUID 8a71dcd6-94ac-4c06-9a7f-47ee097bd7cd;
+				- _myState = 8192;
+				- _name = "DefaultConfig";
+				- m_path = "";
+				- Elements = { IRPYRawContainer 
+					- size = 0;
+				}
+				- Files = { IRPYRawContainer 
+					- size = 0;
+				}
+			}
+			- weakCGTime = 9.14.2012::3:57:25;
+			- strongCGTime = 9.14.2012::3:57:25;
+			- AnimScopeElements = { IRPYRawContainer 
+				- size = 0;
+			}
+			- m_allInAnimScope = 1;
+		}
+		{ ICodeGenConfigInfo 
+			- _id = GUID b8aaeb11-c164-4325-84cc-061b4d49c4bd;
+			- _myState = 8192;
+			- _properties = { IPropertyContainer 
+				- Subjects = { IRPYRawContainer 
+					- size = 1;
+					- value = 
+					{ IPropertySubject 
+						- _Name = "CPP_CG";
+						- Metaclasses = { IRPYRawContainer 
+							- size = 1;
+							- value = 
+							{ IPropertyMetaclass 
+								- _Name = "Configuration";
+								- Properties = { IRPYRawContainer 
+									- size = 1;
+									- value = 
+									{ IProperty 
+										- _Name = "Environment";
+										- _Value = "MinGW";
+										- _Type = Enum;
+										- _ExtraTypeInfo = "MinGW, Microsoft,MicrosoftDLL,MSVC9,VxWorks,VxWorks62diab,VxWorks62gnu,VxWorks62diab_RTP,VxWorks62gnu_RTP,Solaris2,Cygwin,Borland,MultiWin32,Multi4Win32,MSStandardLibrary,MicrosoftWinCE.NET,OseSfk,Linux,Solaris2GNU,QNXNeutrinoGCC, QNXNeutrinoCW,INTEGRITY,INTEGRITY5,IntegrityESTL,Integrity5ESTL,NucleusPLUS-PPC,WorkbenchManaged,WorkbenchManaged_RTP";
+									}
+								}
+							}
+						}
+					}
+				}
+			}
+			- _name = "DefaultConfig_copy";
+			- HyperLinks = { IRPYRawContainer 
+				- size = 2;
+				- value = 
+				{ IMHyperLink 
+					- _id = GUID 3e6993d4-985a-4720-8d3e-d6515e2128b4;
+					- _dependsOn = { INObjectHandle 
+						- _m2Class = "";
+					}
+					- _linkDispName = "Edit Makefile";
+					- _linkType = "FREE";
+					- _linkTarget = "C:\\Work_Shubhajit\\Traffic\\DefaultComponent\\DefaultConfig\\DefaultComponent.mak";
+					- isConfigurationFileHyperLink = 1;
+				}
+				{ IMHyperLink 
+					- _id = GUID 0d5ab8ae-d248-4e32-9c79-fc70a60ed205;
+					- _dependsOn = { INObjectHandle 
+						- _m2Class = "";
+					}
+					- _linkDispName = "Edit Main File";
+					- _linkType = "FREE";
+					- _linkTarget = "C:\\Work_Shubhajit\\Traffic\\DefaultComponent\\DefaultConfig\\MainDefaultComponent";
+					- isConfigurationFileHyperLink = 1;
+				}
+			}
+			- _scopeType = Explicit;
+			- _libraries = "";
+			- _additionalSources = "";
+			- _standardHeaders = "";
+			- _includePath = "";
+			- _targetMain = "";
+			- _instrumentation = Animation;
+			- _timeModel = RealTime;
+			- m_generateActors = 1;
+			- _statechartImplementation = Flat;
+			- _initializationCode = "";
+			- _checksList = 0 ;
+			- ScopeElements = { IRPYRawContainer 
+				- size = 0;
+			}
+			- InitialInstances = { IRPYRawContainer 
+				- size = 3;
+				- value = 
+				{ IHandle 
+					- _m2Class = "IClass";
+					- _filename = "Default.sbs";
+					- _subsystem = "Default";
+					- _class = "";
+					- _name = "Normal";
+					- _id = GUID f2e3f6b2-7d2a-4412-a237-a8af3f6e3cf4;
+				}
+				{ IHandle 
+					- _m2Class = "IClass";
+					- _filename = "Default.sbs";
+					- _subsystem = "Default";
+					- _class = "";
+					- _name = "Traffic_density";
+					- _id = GUID 80bb38c7-755b-4598-b9c7-1f40003201e7;
+				}
+				{ IHandle 
+					- _m2Class = "IClass";
+					- _filename = "Default.sbs";
+					- _subsystem = "Default";
+					- _class = "";
+					- _name = "Traffic_Main";
+					- _id = GUID a4115a63-96d5-4d93-b74b-afb28d25b7d6;
+				}
+			}
+			- _root = { IFolder 
+				- _id = GUID ca15f62f-47ff-4163-8b4a-97edaebbafe0;
+				- _myState = 8192;
+				- _name = "DefaultConfig_copy";
+				- m_path = "";
+				- Elements = { IRPYRawContainer 
+					- size = 0;
+				}
+				- Files = { IRPYRawContainer 
+					- size = 0;
+				}
+			}
+			- weakCGTime = 3.5.2013::23:13:52;
+			- strongCGTime = 3.5.2013::23:13:52;
+			- AnimScopeElements = { IRPYRawContainer 
+				- size = 0;
+			}
+			- m_allInAnimScope = 1;
+		}
+		{ ICodeGenConfigInfo 
+			- _id = GUID 51b1574d-1ae2-43bf-abc2-c04815fd2b3f;
+			- _myState = 8192;
+			- _properties = { IPropertyContainer 
+				- Subjects = { IRPYRawContainer 
+					- size = 1;
+					- value = 
+					{ IPropertySubject 
+						- _Name = "CPP_CG";
+						- Metaclasses = { IRPYRawContainer 
+							- size = 1;
+							- value = 
+							{ IPropertyMetaclass 
+								- _Name = "Configuration";
+								- Properties = { IRPYRawContainer 
+									- size = 1;
+									- value = 
+									{ IProperty 
+										- _Name = "Environment";
+										- _Value = "Microsoft";
+										- _Type = Enum;
+										- _ExtraTypeInfo = "MinGW, Microsoft,MicrosoftDLL,MSVC9,VxWorks,VxWorks62diab,VxWorks62gnu,VxWorks62diab_RTP,VxWorks62gnu_RTP,Solaris2,Cygwin,Borland,MultiWin32,Multi4Win32,MSStandardLibrary,MicrosoftWinCE.NET,OseSfk,Linux,Solaris2GNU,QNXNeutrinoGCC, QNXNeutrinoCW,INTEGRITY,INTEGRITY5,IntegrityESTL,Integrity5ESTL,NucleusPLUS-PPC,WorkbenchManaged,WorkbenchManaged_RTP";
+									}
+								}
+							}
+						}
+					}
+				}
+			}
+			- _name = "DefaultConfig_copy_copy";
+			- HyperLinks = { IRPYRawContainer 
+				- size = 2;
+				- value = 
+				{ IMHyperLink 
+					- _id = GUID 9cbfa0a8-8f13-4db9-90fa-a585f0b1e7dc;
+					- _dependsOn = { INObjectHandle 
+						- _m2Class = "";
+					}
+					- _linkDispName = "Edit Makefile";
+					- _linkType = "FREE";
+					- _linkTarget = "C:\\Work_Shubhajit\\Traffic\\DefaultComponent\\DefaultConfig\\DefaultComponent.mak";
+					- isConfigurationFileHyperLink = 1;
+				}
+				{ IMHyperLink 
+					- _id = GUID 19eea363-6f2a-4b44-bb36-77df61090b0c;
+					- _dependsOn = { INObjectHandle 
+						- _m2Class = "";
+					}
+					- _linkDispName = "Edit Main File";
+					- _linkType = "FREE";
+					- _linkTarget = "C:\\Work_Shubhajit\\Traffic\\DefaultComponent\\DefaultConfig\\MainDefaultComponent";
+					- isConfigurationFileHyperLink = 1;
+				}
+			}
+			- _scopeType = Explicit;
+			- _libraries = "";
+			- _additionalSources = "";
+			- _standardHeaders = "";
+			- _includePath = "";
+			- _targetMain = "";
+			- _instrumentation = Animation;
+			- _timeModel = RealTime;
+			- m_generateActors = 1;
+			- _statechartImplementation = Flat;
+			- _initializationCode = "";
+			- _checksList = 0 ;
+			- ScopeElements = { IRPYRawContainer 
+				- size = 0;
+			}
+			- InitialInstances = { IRPYRawContainer 
+				- size = 3;
+				- value = 
+				{ IHandle 
+					- _m2Class = "IClass";
+					- _filename = "Default.sbs";
+					- _subsystem = "Default";
+					- _class = "";
+					- _name = "Normal";
+					- _id = GUID f2e3f6b2-7d2a-4412-a237-a8af3f6e3cf4;
+				}
+				{ IHandle 
+					- _m2Class = "IClass";
+					- _filename = "Default.sbs";
+					- _subsystem = "Default";
+					- _class = "";
+					- _name = "Traffic_density";
+					- _id = GUID 80bb38c7-755b-4598-b9c7-1f40003201e7;
+				}
+				{ IHandle 
+					- _m2Class = "IClass";
+					- _filename = "Default.sbs";
+					- _subsystem = "Default";
+					- _class = "";
+					- _name = "Traffic_Main";
+					- _id = GUID a4115a63-96d5-4d93-b74b-afb28d25b7d6;
+				}
+			}
+			- _root = { IFolder 
+				- _id = GUID a34d64c4-4834-4a58-a6f9-a66c661d20de;
+				- _myState = 8192;
+				- _name = "DefaultConfig_copy_copy";
+				- m_path = "";
+				- Elements = { IRPYRawContainer 
+					- size = 0;
+				}
+				- Files = { IRPYRawContainer 
+					- size = 0;
+				}
+			}
+			- weakCGTime = 3.19.2013::9:29:37;
+			- strongCGTime = 3.19.2013::9:29:37;
+			- AnimScopeElements = { IRPYRawContainer 
+				- size = 0;
+			}
+			- m_allInAnimScope = 1;
+		}
+	}
+	- HandlesInMe = { IRPYRawContainer 
+		- size = 1;
+		- value = 
+		{ IHandle 
+			- _m2Class = "ISubsystem";
+			- _filename = "Default.sbs";
+			- _subsystem = "";
+			- _class = "";
+			- _name = "Default";
+			- _id = GUID be640df6-51e6-49ad-a64c-5508574b6af0;
+		}
+	}
+	- VariationPoints = { IRPYRawContainer 
+		- size = 0;
+	}
+	- SelectedVariants = { IRPYRawContainer 
+		- size = 0;
+	}
+	- weakCGTime = 3.19.2013::9:27:28;
+	- strongCGTime = 9.11.2012::13:44:0;
+}
+
